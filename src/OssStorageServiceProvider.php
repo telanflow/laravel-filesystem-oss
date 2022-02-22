@@ -9,16 +9,16 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Iidestiny\LaravelFilesystemOss;
+namespace Telanflow\LaravelFilesystemOss;
 
-use Iidestiny\Flysystem\Oss\OssAdapter;
-use Iidestiny\Flysystem\Oss\Plugins\FileUrl;
-use Iidestiny\Flysystem\Oss\Plugins\Kernel;
-use Iidestiny\Flysystem\Oss\Plugins\SignUrl;
-use Iidestiny\Flysystem\Oss\Plugins\TemporaryUrl;
-use Iidestiny\Flysystem\Oss\Plugins\SignatureConfig;
-use Iidestiny\Flysystem\Oss\Plugins\SetBucket;
-use Iidestiny\Flysystem\Oss\Plugins\Verify;
+use Telanflow\Flysystem\Oss\OssAdapter;
+use Telanflow\Flysystem\Oss\Plugins\FileUrl;
+use Telanflow\Flysystem\Oss\Plugins\Kernel;
+use Telanflow\Flysystem\Oss\Plugins\SignUrl;
+use Telanflow\Flysystem\Oss\Plugins\TemporaryUrl;
+use Telanflow\Flysystem\Oss\Plugins\SignatureConfig;
+use Telanflow\Flysystem\Oss\Plugins\SetBucket;
+use Telanflow\Flysystem\Oss\Plugins\Verify;
 use Illuminate\Support\ServiceProvider;
 use League\Flysystem\Filesystem;
 

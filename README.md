@@ -1,18 +1,18 @@
 <h1 align="center">laravel filesystem oss</h1>
 
 <p align="center">
-<a href="https://www.aliyun.com/product/oss">AliOss</a> storage for Laravel based on <a href="https://github.com/iiDestiny/flysystem-oss">iidestiny/flysystem-oss</a>.
+<a href="https://www.aliyun.com/product/oss">AliOss</a> storage for Laravel based on <a href="https://github.com/telanflow/flysystem-oss">telanflow/flysystem-oss</a>.
 </p>
 
 <p align="center">
-<a href="https://github.com/iiDestiny/flysystem-oss"><img src="https://travis-ci.org/iiDestiny/flysystem-oss.svg?branch=master"></a>
-<a href="https://github.com/iiDestiny/flysystem-oss"><img src="https://github.styleci.io/repos/163501119/shield"></a>
-<a href="https://github.com/iiDestiny/laravel-filesystem-oss"><img src="https://poser.pugx.org/iidestiny/laravel-filesystem-oss/v/stable"></a>
-<a href="https://github.com/iiDestiny/laravel-filesystem-oss"><img src="https://poser.pugx.org/iidestiny/laravel-filesystem-oss/downloads"></a>
-<a href="https://github.com/iiDestiny/laravel-filesystem-oss"><img src="https://poser.pugx.org/iidestiny/laravel-filesystem-oss/v/unstable"></a>
-<a href="https://scrutinizer-ci.com/g/iiDestiny/flysystem-oss/?branch=master"><img src="https://scrutinizer-ci.com/g/iiDestiny/flysystem-oss/badges/quality-score.png?b=master"></a>
-<a href="https://github.com/iiDestiny/laravel-filesystem-oss"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
-<a href="https://github.com/iiDestiny/laravel-filesystem-oss"><img src="https://poser.pugx.org/iidestiny/laravel-filesystem-oss/license"></a>
+<a href="https://github.com/telanflow/flysystem-oss"><img src="https://travis-ci.org/telanflow/flysystem-oss.svg?branch=master"></a>
+<a href="https://github.com/telanflow/flysystem-oss"><img src="https://github.styleci.io/repos/163501119/shield"></a>
+<a href="https://github.com/telanflow/laravel-filesystem-oss"><img src="https://poser.pugx.org/telanflow/laravel-filesystem-oss/v/stable"></a>
+<a href="https://github.com/telanflow/laravel-filesystem-oss"><img src="https://poser.pugx.org/telanflow/laravel-filesystem-oss/downloads"></a>
+<a href="https://github.com/telanflow/laravel-filesystem-oss"><img src="https://poser.pugx.org/telanflow/laravel-filesystem-oss/v/unstable"></a>
+<a href="https://scrutinizer-ci.com/g/telanflow/flysystem-oss/?branch=master"><img src="https://scrutinizer-ci.com/g/telanflow/flysystem-oss/badges/quality-score.png?b=master"></a>
+<a href="https://github.com/telanflow/laravel-filesystem-oss"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
+<a href="https://github.com/telanflow/laravel-filesystem-oss"><img src="https://poser.pugx.org/telanflow/laravel-filesystem-oss/license"></a>
 </p>
 
 <p align="center">
@@ -23,22 +23,22 @@
 
 ## 扩展包要求
 
--   PHP >= 7.0
+-   PHP >= 8.0.2
 
 ## 安装命令
 
 ```shell
-$ composer require "iidestiny/laravel-filesystem-oss" -vvv
+$ composer require "telanflow/laravel-filesystem-oss" -vvv
 ```
 
 ## 配置
 
-1. 将服务提供者 `Iidestiny\LaravelFilesystemOss\OssStorageServiceProvider::class` 注册到 `config/app.php` 文件:
+1. 将服务提供者 `Telanflow\LaravelFilesystemOss\OssStorageServiceProvider::class` 注册到 `config/app.php` 文件:
 
 ```php
 'providers' => [
     // Other service providers...
-    Iidestiny\LaravelFilesystemOss\OssStorageServiceProvider::class,
+    Telanflow\LaravelFilesystemOss\OssStorageServiceProvider::class,
 ],
 ```
 
@@ -326,7 +326,7 @@ export default {
 
 ## 依赖的核心包
 
--   [iidestiny/flysystem-oss](https://github.com/iiDestiny/flysystem-oss)
+-   [telanflow/flysystem-oss](https://github.com/telanflow/flysystem-oss)
 
 ## 参考
 

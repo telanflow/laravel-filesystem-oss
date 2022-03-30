@@ -20,7 +20,7 @@ use Telanflow\Flysystem\Oss\Plugins\SignatureConfig;
 use Telanflow\Flysystem\Oss\Plugins\SetBucket;
 use Telanflow\Flysystem\Oss\Plugins\Verify;
 use Illuminate\Support\ServiceProvider;
-use Telanflow\Flysystem\Filesystem;
+use League\Flysystem\Filesystem;
 
 /**
  * Class OssStorageServiceProvider
